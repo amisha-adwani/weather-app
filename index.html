@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather for today</title>
-    <link href="style.css" rel="style.css"/>
-</head>
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="style.css">
 <body>
-    <h1>What's the weather today?</h1>
-    <input type="text" id="city"></input>
-    <button id="submit">Submit</button>
-    <h3 id="display">Display</h3>
+    <div class="card">
+        <label>What's the weather today?</label>
+        <br>
+        <input type="text" id="city" placeholder="type in your city"></input>
+        <button class="button-primary" id="submit">Submit</button>
+        <h6 id="display">Display</h6>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
